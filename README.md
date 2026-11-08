@@ -4,7 +4,7 @@
 
 > **Status: planning.** No code yet. This repository holds the project plan and the character design; implementation starts at Phase 0 of the [plan](docs/PLAN.md).
 
-Otim Nivis is a program that follows a **Minecraft** session in real time and reacts with short, mocking voice lines, with a simple animated avatar on screen. It is being built from scratch, with the goal of understanding every layer of the system rather than just making it work.
+Otim Nivis is a program that follows a **Minecraft** session in real time and reacts with short, mocking voice lines, with a simple animated avatar on screen. She is designed as the AI rival of my VTuber, [Mito Ignis](https://twitch.tv/mito_ignis), to watch and tease her during streams. It is being built from scratch, with the goal of understanding every layer of the system rather than just making it work.
 
 ## MVP
 
@@ -75,13 +75,32 @@ Open technical decisions (concurrency model, event source, LLM, TTS, avatar, con
 
 ## Character
 
-The AI has its own original character: **Otim Nivis**, a corrupted program that learned to talk by watching someone play. Smug, sarcastic and quick to comment on every mistake, but secretly invested in the player.
+The AI has its own original character: **Otim Nivis**, the digital rival of **[Mito Ignis](https://twitch.tv/mito_ignis)**, my original VTuber, whom I created and stream as on Twitch.
 
-Her look follows a digital/glitch theme: a translucent cyan crystal horn, mismatched amber and purple eyes, glitch pixels on the skin and a dragon tail made of pixel segments that break apart at the edges.
+Otim is "Mito" spelled backwards: she is Mito's mirror image. She was born as a program that watched Mito play and, from watching so much, learned to talk like her, react like her and eventually cast magic. That origin is the same premise as the technical project: an AI that observes the game, learns and comments. She is smug, sarcastic and quick to comment on every mistake, but only *she* gets to mock Mito.
 
-![Otim Nivis character sheet](assets/character-sheet.webp)
+|  | Mito Ignis | Otim Nivis |
+|---|---|---|
+| Nature | half demon, half dragon | artificial intelligence |
+| Element | fire (*ignis*) | ice (*nivis*, "of snow"), in the sense of a program freezing |
+| Aesthetic | medieval and arcane, with modern clothes | tech, modern, hacker |
+| Corruption | draconic, grows red crystals | data, spawns glitch pixels |
+| Palette | red, wine, gold | cyan, blue-violet, purple, amber accents |
 
-The design is still being refined.
+The designs mirror each other: Otim's cyan crystal horn sits on the opposite side of Mito's golden horn, her eye colors are swapped, and her glitch pixels are the digital version of Mito's red crystals.
+
+<table>
+  <tr>
+    <td><img src="assets/mito-ignis-sheet.webp" alt="Mito Ignis character sheet"></td>
+    <td><img src="assets/character-sheet.webp" alt="Otim Nivis character sheet"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Mito Ignis</b></td>
+    <td align="center"><b>Otim Nivis</b></td>
+  </tr>
+</table>
+
+Otim's design is still being refined.
 
 ## Stack (planned)
 
