@@ -1,0 +1,14 @@
+# segredos (RNF03)
+.env
+*.env
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# arquivos locais de planejamento
+*.pdf
+kliq.html
+teste
